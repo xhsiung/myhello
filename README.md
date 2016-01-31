@@ -1,0 +1,2 @@
+# myhello
+cordova plugin sample
