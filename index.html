@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World</title>
+    </head>
+    <body>
+        <button type="button" onclick="test()" >Click me </button>
+        <script>
+            function test(){
+                var conf = {
+                    "name": "alex",
+                    "mobile": "09138"
+                }
+
+                hello.greet( conf ,false,
+                    function(message){
+                        alert(message);
+                    },
+                    function(){
+                        alert("Error calling Hello Plugin");
+                    }
+                );
+            }
+        </script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="corodva_plugins.js"></script>
+    </body>
+</html>
